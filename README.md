@@ -1,4 +1,11 @@
-# 🏨 Hotel Management System
+# 🤍 AUTHOR
+## OKECHUKWU SIMONE JUACHI
+## 24/14919
+## COMPUTER SCIENCE
+
+---
+
+# Hotel Management System
 
 The Hotel Management System is a console-based application developed to manage basic hotel operations such as customer registration, room booking, check-in, and check-out.
 
@@ -6,7 +13,7 @@ This project was developed for academic purposes and demonstrates both programmi
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 The objectives of this project are to:
 
@@ -18,7 +25,7 @@ The objectives of this project are to:
 
 ---
 
-## ✨ Features
+## Features
 
 - Add customer details  
 - Book hotel rooms  
@@ -29,7 +36,7 @@ The objectives of this project are to:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Programming Language: C++ / Python *(depending on implementation)*  
 - IDE: Code::Blocks / Visual Studio Code  
@@ -37,7 +44,7 @@ The objectives of this project are to:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 `plaintext
 Hotel-Management-System/
@@ -48,79 +55,110 @@ Hotel-Management-System/
 │
 └── README.md
 
+---
+
 # 🔄 Software Development Life Cycle (SDLC)
 
-This project was developed following the Software Development Life Cycle (SDLC), which is a structured process used to design, develop, test, and maintain software systems.
+The Software Development Life Cycle (SDLC) is a systematic process used to plan, design, develop, test, deploy, and maintain software applications.  
+This Hotel Management System was developed by following all SDLC phases to ensure clarity, correctness, and maintainability.
 
 ---
 
 ## 1️⃣ Requirement Analysis
 
-In this phase, the problem was analyzed to understand what the system is expected to achieve.
+This phase involved carefully studying the problem and identifying what the Hotel Management System is expected to do.
 
-### Identified Requirements:
-- The system should store customer information  
-- The system should support room booking  
+### Activities Performed:
+- Identified the need to replace manual hotel record keeping
+- Studied basic hotel operations such as customer registration, room booking, check-in, and check-out
+- Determined system limitations such as console-based interaction
+
+### Functional Requirements:
+- The system should allow entry of customer details  
+- The system should allow booking of available rooms  
 - The system should handle customer check-in and check-out  
-- The system should display hotel and customer records  
-- The system should be simple, menu-driven, and easy to use  
+- The system should display customer and room records  
+- The system should provide a clear, menu-driven interface  
+
+### Non-Functional Requirements:
+- The system should be easy to use  
+- The system should respond quickly to user input  
+- The system should be reliable and error-free  
+- The system should be simple to maintain and modify  
 
 ---
 
 ## 2️⃣ System Design
 
-This phase focused on planning how the system would work before coding began.
+In this phase, the structure and behavior of the system were planned before coding began.
+
+### Design Activities:
+- Designed a menu-driven flow for user interaction
+- Divided the system into modules such as:
+  - Customer management
+  - Room booking
+  - Check-in and check-out
+- Selected appropriate data structures (arrays, lists, structures, or classes)
+- Designed function flow and data handling logic
 
 ### Design Decisions:
-- A console-based, menu-driven interface was selected  
-- Functions were used to separate different hotel operations  
-- Data structures such as arrays, lists, or structures were chosen to store data  
-- Input validation was considered to prevent invalid user input  
+- A console-based interface was chosen for simplicity
+- Modular programming was adopted to improve readability
+- Input validation was included to reduce errors
+- Logical separation of tasks was ensured
 
 ---
 
 ## 3️⃣ Implementation (Coding)
 
-In this phase, the actual program was written based on the system design.
+This phase involved converting the system design into actual program code.
 
 ### Implementation Details:
-- Each hotel operation was implemented as a separate function  
-- Conditional statements were used for menu selection  
-- Loops were used to keep the program running until the user exits  
-- Clear variable names and readable code structure were maintained  
+- Each hotel operation was implemented using separate functions
+- Conditional statements were used for menu selection
+- Loops were used to allow continuous program execution until exit
+- Variables were properly named to improve code readability
+- Code was written following basic programming best practices
 
 ---
 
 ## 4️⃣ Testing
 
-The system was tested to ensure that all functionalities worked correctly.
+Testing was carried out to ensure that the system works as expected and meets the defined requirements.
 
-### Testing Activities:
-- Tested customer registration  
-- Verified room booking functionality  
-- Tested check-in and check-out processes  
-- Checked system response to invalid inputs  
-- Ensured proper program termination  
+### Testing Methods Used:
+- Manual testing of each menu option
+- Testing with valid and invalid inputs
+- Boundary testing for room limits and customer data
+- Repeated execution to ensure system stability
+
+### Testing Outcomes:
+- Verified correct room booking functionality
+- Confirmed accurate storage and display of customer data
+- Ensured proper check-in and check-out processes
+- Confirmed graceful handling of incorrect inputs
 
 ---
 
 ## 5️⃣ Deployment
 
-After successful testing, the system was deployed for use.
+After successful testing, the system was made available for use.
 
-### Deployment Steps:
-- The program was run successfully in the development environment  
-- The source code was uploaded to GitHub  
-- The repository was made available for academic evaluation  
+### Deployment Process:
+- The program was executed successfully in the development environment
+- Final source code was reviewed and cleaned
+- The project was uploaded to GitHub
+- The repository was made public for academic evaluation and submission
 
 ---
 
 ## 6️⃣ Maintenance
 
-This phase involves updating and improving the system after deployment.
+Maintenance involves ongoing improvement of the system after deployment.
 
 ### Maintenance Activities:
-- Fixing bugs discovered after deployment  
-- Improving system performance  
-- Adding new features  
-- Refactoring code for better readability and maintenance
+- Fixing bugs discovered during usage
+- Improving performance and efficiency
+- Adding new features such as data persistence
+- Refactoring code for better structure and readability
+- Updating documentation when changes are made
