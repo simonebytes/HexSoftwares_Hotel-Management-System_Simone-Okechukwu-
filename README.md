@@ -1,7 +1,7 @@
 # 🤍 AUTHOR
-## OKECHUKWU SIMONE JUACHI
-## 24/14919
-## COMPUTER SCIENCE
+### OKECHUKWU SIMONE JUACHI
+### 24/14919
+### COMPUTER SCIENCE
 
 ---
 
@@ -10,6 +10,10 @@
 The Hotel Management System is a console-based application developed to manage basic hotel operations such as customer registration, room booking, check-in, and check-out.
 
 This project was developed for academic purposes and demonstrates both programming fundamentals and the Software Development Life Cycle (SDLC).
+
+---
+
+### GitHub Link: https://github.com/simonebytes/HexSoftwares_Hotel-Management-System_Simone-Okechukwu-
 
 ---
 
@@ -55,6 +59,8 @@ Hotel-Management-System/
 │
 └── README.md
 
+---
+---
 ---
 
 # 🔄 Software Development Life Cycle (SDLC)
